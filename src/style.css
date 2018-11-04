@@ -10,7 +10,9 @@
   width  : 16px;
   height : 16px;
   margin : 0 .5em 0 0;
-  background: url("checkbox-sprite.png") no-repeat 0 0;
+  background-image: url("checkbox-sprite.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 
 /* The following is used to adjust the position of 
    the check boxes on the text baseline */
